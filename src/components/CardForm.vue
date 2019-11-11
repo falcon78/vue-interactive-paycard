@@ -17,7 +17,7 @@
           :id="fields.cardNumber"
           @input="changeNumber"
           @focus="focusCardNumber"
-          @blur="blurCardNumber"
+          @blur="blurCardNumber" 
           class="card-input__input"
           :value="formData.cardNumber"
           :maxlength="cardNumberMaxLength"
